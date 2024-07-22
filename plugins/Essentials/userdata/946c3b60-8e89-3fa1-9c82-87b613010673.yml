@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 4.193.208.212
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1721308239286
+  login: 1721308147251
+money: '0'
+last-account-name: KitoMC_FlarMekc
+lastlocation:
+  world: a200ab24-7269-44c4-bda9-334776ceaa85
+  world-name: world
+  x: 96.0
+  y: 67.0
+  z: -464.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 6f9b3c5d-3ef0-4279-9892-7c1395f029e3
+  world-name: spawn
+  x: 49.5
+  y: 7.0
+  z: 22.5
+  yaw: -50.291351318359375
+  pitch: 86.96127319335938

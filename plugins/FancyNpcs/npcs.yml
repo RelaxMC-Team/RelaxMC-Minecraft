@@ -1,0 +1,30 @@
+npcs:
+  ca95bdb1-e659-4818-9831-217b825c53a7:
+    name: start
+    creator: 48618c6a-dae8-3923-9afe-dc6cd7a9f102
+    displayName: '&#E43A96Tiểu Tiểu'
+    type: PLAYER
+    location:
+      world: spawn
+      x: 47.68087715531753
+      y: 7.0
+      z: 25.87575484244004
+      yaw: -157.91423
+      pitch: 2.406568
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: true
+    messages: []
+    playerCommands: []
+    serverCommands: []
+    sendMessagesRandomly: false
+    interactionCooldown: 0.0
+    scale: 1.0
+    mirrorSkin: false
+    skin:
+      identifier: https://s.namemc.com/i/f67f950fd8541c71.png
+      value: ewogICJ0aW1lc3RhbXAiIDogMTU5NDI4ODA3MDAwNiwKICAicHJvZmlsZUlkIiA6ICI5ZDEzZjcyMTcxM2E0N2U0OTAwZTMyZGVkNjBjNDY3MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJUYWxvZGFvIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzYwMDBlNGQwNGRjNGRkMDE1MjFiZjY4YTNmNTIxMmIwYjk0NjNlM2IyZjFjNTI5Mjk5ZWNhNmEzNTIwM2JiZTAiCiAgICB9CiAgfQp9
+      signature: Cuw/5k7zRpOKIrzaOcXhXjYbgZCfUkSBVZ6Jhw9CILaaz/7GwpJxYRVIfHhP9S7Vm7i3qOTm0Mr9KrkgyruqoV9CyHa9OxO8jUcAvIGfon0RD5opahffS90dejaj4pyOAalMzKQzf/IE7FI2bb63KtQFHNecPvVDSIGLvCJv8hCs0M71hgMME0PmBdVPBVzjv7l9gim8UMNddjJr6ue0VQnnvwUeWDMRTxKLF37ZopkfzI0dntj6klo/a/e0bwe+EuDSC19gbE9IElB7pxiGS8qPUnYymba8HGCch5GgnPKpBzyR1q0rwTA3mmUsCd2J3S8ZkzsqO/p2jthTa33Ykp5sQsTo4rSm+wyR8Q7l41LKDPxemP/sHTZUVGgJ6xhyRH8pVuF1ob/RWVPKCfOBjCfGxmAtbWKtP2j4WllrdDmuDWh0CZgSj82hwOdsJ2AIoHvd4ozJxvO0+fN2r0LPltjiGtSxCZYxkuK8QyDLwAAurRSY1+aUH6oyVo1Mn2m1zNaicj2OgxCWpHJyy3hL+F5YUmIorFMaTWB+/2p0ZXTWYSNq4bHTYIjl+M9jB25zz9t9NmNk+cAMn/ShY2otPe4n52o14FVtegL6iRgkmTL/1hFP+hcdQzzVvXAeaFN9B1U3WqP7/jMXP76O41UmHQhY12ItQ4rYqaIFetf0fZc=

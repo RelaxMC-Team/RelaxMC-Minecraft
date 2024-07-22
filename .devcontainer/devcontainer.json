@@ -1,0 +1,9 @@
+{
+  "name": "Java 21 Development Environment",
+  "image": "mcr.microsoft.com/devcontainers/java:21",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": ["vscjava.vscode-java-pack"],
+  "postCreateCommand": "java -version"
+}

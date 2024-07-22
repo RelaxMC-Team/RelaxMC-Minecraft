@@ -1,0 +1,266 @@
+[02:20:56] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[02:20:59] [ServerMain/INFO]: Loaded 1180 recipes
+[02:21:00] [ServerMain/INFO]: Loaded 1271 advancements
+[02:21:00] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[02:21:00] [Server thread/INFO]: Loading properties
+[02:21:00] [Server thread/INFO]: This server is running Paper version git-Paper-497 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: d8d54d9 on ver/1.20.4)
+[02:21:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:21:01] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:21:01] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[02:21:01] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[02:21:01] [Server thread/INFO]: Default game type: SURVIVAL
+[02:21:01] [Server thread/INFO]: Generating keypair
+[02:21:01] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
+[02:21:01] [Server thread/INFO]: Using epoll channel type
+[02:21:01] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[02:21:01] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[02:21:02] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loading 10 libraries... please wait
+[02:21:02] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /workspaces/Hello-World/libraries/org/springframework/spring-expression/6.0.6/spring-expression-6.0.6.jar
+[02:21:02] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /workspaces/Hello-World/libraries/org/springframework/spring-core/6.0.6/spring-core-6.0.6.jar
+[02:21:02] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /workspaces/Hello-World/libraries/org/springframework/spring-jcl/6.0.6/spring-jcl-6.0.6.jar
+[02:21:02] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /workspaces/Hello-World/libraries/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar
+[02:21:02] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /workspaces/Hello-World/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar
+[02:21:02] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /workspaces/Hello-World/libraries/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar
+[02:21:02] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /workspaces/Hello-World/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+[02:21:02] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /workspaces/Hello-World/libraries/commons-codec/commons-codec/1.11/commons-codec-1.11.jar
+[02:21:02] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /workspaces/Hello-World/libraries/org/joml/joml/1.10.5/joml-1.10.5.jar
+[02:21:02] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /workspaces/Hello-World/libraries/net/kyori/adventure-text-minimessage/4.17.0/adventure-text-minimessage-4.17.0.jar
+[02:21:02] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /workspaces/Hello-World/libraries/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.jar
+[02:21:02] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /workspaces/Hello-World/libraries/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.jar
+[02:21:02] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /workspaces/Hello-World/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[02:21:02] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /workspaces/Hello-World/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[02:21:02] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /workspaces/Hello-World/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
+[02:21:02] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /workspaces/Hello-World/libraries/net/kyori/adventure-text-serializer-plain/4.17.0/adventure-text-serializer-plain-4.17.0.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /workspaces/Hello-World/libraries/net/kyori/adventure-text-serializer-ansi/4.17.0/adventure-text-serializer-ansi-4.17.0.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /workspaces/Hello-World/libraries/net/kyori/ansi/1.0.3/ansi-1.0.3.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /workspaces/Hello-World/libraries/net/kyori/adventure-platform-bukkit/4.3.3/adventure-platform-bukkit-4.3.3.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /workspaces/Hello-World/libraries/net/kyori/adventure-platform-api/4.3.3/adventure-platform-api-4.3.3.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /workspaces/Hello-World/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.3/adventure-text-serializer-bungeecord-4.3.3.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /workspaces/Hello-World/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /workspaces/Hello-World/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /workspaces/Hello-World/libraries/net/kyori/adventure-text-serializer-gson/4.13.1/adventure-text-serializer-gson-4.13.1.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /workspaces/Hello-World/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /workspaces/Hello-World/libraries/net/kyori/adventure-platform-facet/4.3.3/adventure-platform-facet-4.3.3.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /workspaces/Hello-World/libraries/net/kyori/adventure-platform-viaversion/4.3.3/adventure-platform-viaversion-4.3.3.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /workspaces/Hello-World/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /workspaces/Hello-World/libraries/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /workspaces/Hello-World/libraries/gs/mclo/java/2.2.1/java-2.2.1.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [AdvancedSeasons] Loading 1 libraries... please wait
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [AdvancedSeasons] Loaded library /workspaces/Hello-World/libraries/io/netty/netty-all/4.1.82.Final/netty-all-4.1.82.Final.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [AdvancedSeasons] Loaded library /workspaces/Hello-World/libraries/io/netty/netty-buffer/4.1.82.Final/netty-buffer-4.1.82.Final.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [AdvancedSeasons] Loaded library /workspaces/Hello-World/libraries/io/netty/netty-codec/4.1.82.Final/netty-codec-4.1.82.Final.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [AdvancedSeasons] Loaded library /workspaces/Hello-World/libraries/io/netty/netty-codec-dns/4.1.82.Final/netty-codec-dns-4.1.82.Final.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [AdvancedSeasons] Loaded library /workspaces/Hello-World/libraries/io/netty/netty-codec-haproxy/4.1.82.Final/netty-codec-haproxy-4.1.82.Final.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [AdvancedSeasons] Loaded library /workspaces/Hello-World/libraries/io/netty/netty-codec-http/4.1.82.Final/netty-codec-http-4.1.82.Final.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [AdvancedSeasons] Loaded library /workspaces/Hello-World/libraries/io/netty/netty-codec-http2/4.1.82.Final/netty-codec-http2-4.1.82.Final.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [AdvancedSeasons] Loaded library /workspaces/Hello-World/libraries/io/netty/netty-codec-memcache/4.1.82.Final/netty-codec-memcache-4.1.82.Final.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [AdvancedSeasons] Loaded library /workspaces/Hello-World/libraries/io/netty/netty-codec-mqtt/4.1.82.Final/netty-codec-mqtt-4.1.82.Final.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [AdvancedSeasons] Loaded library /workspaces/Hello-World/libraries/io/netty/netty-codec-redis/4.1.82.Final/netty-codec-redis-4.1.82.Final.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [AdvancedSeasons] Loaded library /workspaces/Hello-World/libraries/io/netty/netty-codec-smtp/4.1.82.Final/netty-codec-smtp-4.1.82.Final.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [AdvancedSeasons] Loaded library /workspaces/Hello-World/libraries/io/netty/netty-codec-socks/4.1.82.Final/netty-codec-socks-4.1.82.Final.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [AdvancedSeasons] Loaded library /workspaces/Hello-World/libraries/io/netty/netty-codec-stomp/4.1.82.Final/netty-codec-stomp-4.1.82.Final.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [AdvancedSeasons] Loaded library /workspaces/Hello-World/libraries/io/netty/netty-codec-xml/4.1.82.Final/netty-codec-xml-4.1.82.Final.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [AdvancedSeasons] Loaded library /workspaces/Hello-World/libraries/io/netty/netty-common/4.1.82.Final/netty-common-4.1.82.Final.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [AdvancedSeasons] Loaded library /workspaces/Hello-World/libraries/io/netty/netty-handler/4.1.82.Final/netty-handler-4.1.82.Final.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [AdvancedSeasons] Loaded library /workspaces/Hello-World/libraries/io/netty/netty-transport-native-unix-common/4.1.82.Final/netty-transport-native-unix-common-4.1.82.Final.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [AdvancedSeasons] Loaded library /workspaces/Hello-World/libraries/io/netty/netty-handler-proxy/4.1.82.Final/netty-handler-proxy-4.1.82.Final.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [AdvancedSeasons] Loaded library /workspaces/Hello-World/libraries/io/netty/netty-resolver/4.1.82.Final/netty-resolver-4.1.82.Final.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [AdvancedSeasons] Loaded library /workspaces/Hello-World/libraries/io/netty/netty-resolver-dns/4.1.82.Final/netty-resolver-dns-4.1.82.Final.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [AdvancedSeasons] Loaded library /workspaces/Hello-World/libraries/io/netty/netty-transport/4.1.82.Final/netty-transport-4.1.82.Final.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [AdvancedSeasons] Loaded library /workspaces/Hello-World/libraries/io/netty/netty-transport-rxtx/4.1.82.Final/netty-transport-rxtx-4.1.82.Final.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [AdvancedSeasons] Loaded library /workspaces/Hello-World/libraries/io/netty/netty-transport-sctp/4.1.82.Final/netty-transport-sctp-4.1.82.Final.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [AdvancedSeasons] Loaded library /workspaces/Hello-World/libraries/io/netty/netty-transport-udt/4.1.82.Final/netty-transport-udt-4.1.82.Final.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [AdvancedSeasons] Loaded library /workspaces/Hello-World/libraries/io/netty/netty-transport-classes-epoll/4.1.82.Final/netty-transport-classes-epoll-4.1.82.Final.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [AdvancedSeasons] Loaded library /workspaces/Hello-World/libraries/io/netty/netty-transport-classes-kqueue/4.1.82.Final/netty-transport-classes-kqueue-4.1.82.Final.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [AdvancedSeasons] Loaded library /workspaces/Hello-World/libraries/io/netty/netty-resolver-dns-classes-macos/4.1.82.Final/netty-resolver-dns-classes-macos-4.1.82.Final.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [AdvancedSeasons] Loaded library /workspaces/Hello-World/libraries/io/netty/netty-transport-native-epoll/4.1.82.Final/netty-transport-native-epoll-4.1.82.Final-linux-x86_64.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [AdvancedSeasons] Loaded library /workspaces/Hello-World/libraries/io/netty/netty-transport-native-epoll/4.1.82.Final/netty-transport-native-epoll-4.1.82.Final-linux-aarch_64.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [AdvancedSeasons] Loaded library /workspaces/Hello-World/libraries/io/netty/netty-transport-native-kqueue/4.1.82.Final/netty-transport-native-kqueue-4.1.82.Final-osx-x86_64.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [AdvancedSeasons] Loaded library /workspaces/Hello-World/libraries/io/netty/netty-transport-native-kqueue/4.1.82.Final/netty-transport-native-kqueue-4.1.82.Final-osx-aarch_64.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [AdvancedSeasons] Loaded library /workspaces/Hello-World/libraries/io/netty/netty-resolver-dns-native-macos/4.1.82.Final/netty-resolver-dns-native-macos-4.1.82.Final-osx-x86_64.jar
+[02:21:03] [Server thread/INFO]: [SpigotLibraryLoader] [AdvancedSeasons] Loaded library /workspaces/Hello-World/libraries/io/netty/netty-resolver-dns-native-macos/4.1.82.Final/netty-resolver-dns-native-macos-4.1.82.Final-osx-aarch_64.jar
+[02:21:03] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.4+6823-6263244
+[02:21:04] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@465979fa]
+[02:21:04] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.1
+[02:21:04] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.1 is now loaded. Registering protocol transformers and injecting...
+[02:21:04] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[02:21:04] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[02:21:04] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[02:21:04] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[02:21:05] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
+[02:21:05] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.2.0-SNAPSHOT-679
+[02:21:06] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[02:21:06] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.0.1
+[02:21:06] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.137
+[02:21:06] [Server thread/INFO]: [Oraxen] Loading server plugin Oraxen v1.178.0
+[02:21:06] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+93-3a6fdd9
+[02:21:06] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.1-b861
+[02:21:06] [Server thread/INFO]: [SimpleTpa] Loading server plugin SimpleTpa v7.1
+[02:21:06] [Server thread/INFO]: [LPC] Loading server plugin LPC v3.6.0
+[02:21:06] [Server thread/INFO]: [DeluxeMenus] Loading server plugin DeluxeMenus v1.14.0-Release
+[02:21:06] [Server thread/INFO]: [DeluxeMenus] NMS hook has been setup successfully!
+[02:21:06] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.1.6
+[02:21:06] [Server thread/INFO]: [AdvancedSeasons] Loading server plugin AdvancedSeasons v1.1.2
+[02:21:06] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.74
+[02:21:06] [Server thread/INFO]: [FancyNpcs] Loading server plugin FancyNpcs v2.2.0
+[02:21:06] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+104-33e086f
+[02:21:06] [Server thread/INFO]: [BetterRTP] Loading server plugin BetterRTP v3.6.13
+[02:21:06] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:21:06] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.4+6823-6263244
+[02:21:06] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[02:21:06] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[02:21:06] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R3.PaperweightAdapter as the Bukkit adapter
+[02:21:07] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.2.0-SNAPSHOT-679
+[02:21:07] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.137
+[02:21:08] [Server thread/INFO]:         __    
+[02:21:08] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.137
+[02:21:08] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[02:21:08] [Server thread/INFO]: 
+[02:21:08] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[02:21:08] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[02:21:08] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[02:21:08] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[02:21:09] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1241ms)
+[02:21:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:21:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:21:09] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:21:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:21:09] [Server thread/INFO]: Preparing level "world"
+[02:21:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:21:10] [Server thread/INFO]: Time elapsed: 198 ms
+[02:21:10] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[02:21:11] [Server thread/INFO]: Time elapsed: 183 ms
+[02:21:11] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[02:21:11] [Server thread/INFO]: Time elapsed: 47 ms
+[02:21:11] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.1
+[02:21:11] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3-1.20.4 (765)
+[02:21:11] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
+[02:21:11] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[02:21:11] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[02:21:11] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[02:21:11] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[02:21:11] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[02:21:11] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[02:21:11] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[02:21:11] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[02:21:11] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[02:21:11] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[02:21:11] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[02:21:11] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[02:21:11] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[02:21:11] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[02:21:11] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[02:21:11] [Server thread/INFO]: [WorldGuard] Loading region data...
+[02:21:12] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[02:21:12] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[02:21:12] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.0.1
+[02:21:12] [Server thread/INFO]: [Oraxen] Enabling Oraxen v1.178.0
+[02:21:13] [Server thread/INFO]: Oraxen | Version v1_20_R3 has been detected.
+[02:21:13] [Server thread/INFO]: Oraxen | Oraxen will use the NMSHandler for this version.
+[02:21:13] [Server thread/INFO]: Oraxen | Papers block-updates.disable-noteblock-updates is not enabled.
+[02:21:13] [Server thread/INFO]: Oraxen | It is recommended to enable this setting for improved performance and prevent bugs with noteblocks
+[02:21:13] [Server thread/INFO]: Oraxen | Otherwise Oraxen needs to listen to very taxing events, which also introduces some bugs
+[02:21:13] [Server thread/INFO]: Oraxen | You can enable this setting in ServerFolder/config/paper-global.yml
+
+[02:21:13] [Server thread/INFO]: Oraxen | Papers block-updates.disable-tripwire-updates is not enabled.
+[02:21:13] [Server thread/INFO]: Oraxen | It is recommended to enable this setting for improved performance and prevent bugs with tripwires
+[02:21:13] [Server thread/INFO]: Oraxen | Otherwise Oraxen needs to listen to very taxing events, which also introduces some bugs
+[02:21:13] [Server thread/INFO]: Oraxen | You can enable this setting in ServerFolder/config/paper-global.yml
+
+[02:21:14] [Server thread/INFO]: Oraxen | Slicing gui-textures to 1.20.2-format...
+[02:21:14] [Server thread/INFO]: Oraxen | Successfully sliced gui-textures for 1.20.2
+[02:21:15] [Server thread/INFO]: Oraxen | Converting global lang file to individual language files...
+[02:21:15] [Server thread/INFO]: Oraxen | Verifying formatting for textures and models...
+[02:21:15] [Server thread/INFO]: Oraxen | Found invalid texture at assets/minecraft/textures/required/logo (1).png
+[02:21:15] [Server thread/INFO]: Oraxen | Texture-paths must only contain characters [a-z0-9/._-]
+[02:21:15] [Server thread/INFO]: Oraxen | Pack contains malformed texture(s) and/or model(s)
+[02:21:15] [Server thread/INFO]: Oraxen | These need to be fixed, otherwise the resourcepack will be broken
+
+[02:21:15] [Server thread/INFO]: Oraxen | Generating atlas-file for 1.19.3+ Resource Pack format
+[02:21:15] [Server thread/INFO]: Oraxen | Attempting to exclude malformed textures from atlas-file
+[02:21:15] [Server thread/INFO]: Oraxen | Excluding malformed texture from atlas-file: assets/minecraft/textures/required/logo (1).png
+[02:21:15] [Server thread/INFO]: 
+[02:21:15] [Server thread/INFO]: Oraxen | No duplicate font files found!
+[02:21:15] [Server thread/INFO]: 
+[02:21:15] [Server thread/INFO]: Oraxen | Successfully loaded on Debian GNU/Linux 12 (bookworm)
+[02:21:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: oraxen [1.178.0]
+[02:21:15] [Server thread/INFO]: Oraxen | Plugin "PlaceholderAPI" detected, enabling hooks
+[02:21:15] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+93-3a6fdd9
+[02:21:16] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[02:21:16] [Server thread/WARN]: [Essentials] Version mismatch! Please update EssentialsSpawn to the same version.
+[02:21:16] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[02:21:16] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[02:21:16] [Server thread/INFO]: [Essentials] Loaded 39121 items from items.json.
+[02:21:16] [Server thread/INFO]: [Essentials] Using locale vi
+[02:21:16] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[02:21:17] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[02:21:17] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[02:21:17] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[02:21:17] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[02:21:17] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[02:21:17] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[02:21:17] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[02:21:17] [Server thread/INFO]: Preparing start region for dimension minecraft:spawn
+[02:21:19] [Server thread/INFO]: Time elapsed: 1334 ms
+[02:21:19] [Server thread/INFO]: [WorldGuard] (spawn) TNT ignition is PERMITTED.
+[02:21:19] [Server thread/INFO]: [WorldGuard] (spawn) Lighters are PERMITTED.
+[02:21:19] [Server thread/INFO]: [WorldGuard] (spawn) Lava fire is PERMITTED.
+[02:21:19] [Server thread/INFO]: [WorldGuard] (spawn) Fire spread is UNRESTRICTED.
+[02:21:19] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'spawn'
+[02:21:19] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[02:21:19] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[02:21:19] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[02:21:19] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.1
+[02:21:19] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[02:21:19] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.1
+[02:21:19] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[02:21:19] [Server thread/INFO]: [LPC] Enabling LPC v3.6.0
+[02:21:19] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.14.0-Release
+[02:21:19] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into PlaceholderAPI!
+[02:21:19] [Server thread/INFO]: [DeluxeMenus] 3 GUI menus loaded!
+[02:21:19] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
+[02:21:19] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: deluxemenus [1.14.0-Release]
+[02:21:19] [Server thread/INFO]: [TAB] Enabling TAB v4.1.6
+[02:21:19] [Server thread/INFO]: [TAB] Loaded NMS hook in 93ms
+[02:21:19] [Server thread/INFO]: [TAB] Enabled in 327ms
+[02:21:19] [Server thread/INFO]: [AdvancedSeasons] Enabling AdvancedSeasons v1.1.2
+[02:21:20] [Server thread/WARN]: [AdvancedSeasons] Minecraft Version: MC1_20_R3
+[02:21:20] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: advancedseasons [1.0.0]
+[02:21:20] [Server thread/INFO]: [spark] Enabling spark v1.10.74
+[02:21:20] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[02:21:20] [Server thread/INFO]: [spark] Starting background profiler...
+[02:21:20] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: spark [1.10.74]
+[02:21:20] [Server thread/INFO]: [spark] Registered PlaceholderAPI placeholders
+[02:21:20] [Server thread/INFO]: [FancyNpcs] Enabling FancyNpcs v2.2.0
+[02:21:21] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+104-33e086f
+[02:21:21] [Server thread/WARN]: [EssentialsSpawn] Phiên bản không phù hợp! Vui lòng cập nhật tất cả tệp jar của Essentials lên phiên bản phù hợp.
+[02:21:21] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[02:21:21] [Server thread/INFO]: [BetterRTP] Enabling BetterRTP v3.6.13
+[02:21:21] [Server thread/INFO]: [BetterRTP] Cooldown = 600
+[02:21:21] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: betterrtp [3.6.13]
+[02:21:21] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[02:21:21] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[02:21:21] [Server thread/INFO]: Running delayed init tasks
+[02:21:21] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[02:21:21] [Craft Scheduler Thread - 0 - Essentials/INFO]: [Essentials] Fetching version information...
+[02:21:21] [Thread-11/WARN]: [FancyNpcs] -------------------------------------------------------
+[02:21:21] [Thread-11/WARN]: [FancyNpcs] You are not using the latest version the FancyNpcs plugin.
+[02:21:21] [Thread-11/WARN]: [FancyNpcs] Please update to the newest version (2.2.1).
+[02:21:21] [Thread-11/WARN]: [FancyNpcs] https://modrinth.com/plugin/FancyNpcs
+[02:21:21] [Thread-11/WARN]: [FancyNpcs] -------------------------------------------------------
+[02:21:22] [Craft Scheduler Thread - 0 - Essentials/WARN]: [Essentials] You're 12 EssentialsX dev build(s) out of date!
+[02:21:22] [Craft Scheduler Thread - 0 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[02:21:25] [Server thread/INFO]: Loaded 1180 recipes
+[02:21:26] [Server thread/INFO]: Loaded 1271 advancements
+[02:21:26] [Server thread/INFO]: Done (26.498s)! For help, type "help"
+[02:21:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5094ms or 101 ticks behind
+[02:21:26] [Server thread/INFO]: Timings Reset
+[02:21:26] [Craft Scheduler Thread - 0 - Oraxen/INFO]: Oraxen | Automatic upload of the resource pack is enabled, uploading...
+[02:21:27] [Server thread/INFO]: [AdvancedSeasons] Successfully hooked into ProtocolLib, WorldGuard, PlaceholderAPI, Oraxen, Essentials.
+[02:21:29] [Craft Scheduler Thread - 0 - Oraxen/INFO]: Oraxen | Resourcepack uploaded to http://atlas.oraxen.com:8080/pack.zip?id=7e71f30c7712106581748369e805611c634b8873 in 2366 ms
+[02:21:31] [User Authenticator #0/INFO]: UUID of player KaiShin_SSG is f51cf4fe-7f78-3fd4-b688-55a8df5348d2
+[02:21:33] [Server thread/INFO]: KaiShin_SSG[/127.176.202.150:48321] logged in with entity id 114 at ([spawn]68.93033096585057, 8.0, 43.05483252497166)
+[02:21:52] [User Authenticator #0/INFO]: UUID of player KitoMC is 48618c6a-dae8-3923-9afe-dc6cd7a9f102
+[02:21:55] [Server thread/INFO]: KitoMC[/127.176.202.150:44999] logged in with entity id 115 at ([spawn]68.30000001192093, 8.0, 42.89965032193863)

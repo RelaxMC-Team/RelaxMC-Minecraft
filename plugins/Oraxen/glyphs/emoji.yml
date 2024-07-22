@@ -1,0 +1,59 @@
+exclamation_blue:
+  texture: kitomc/icons/exclamation_blue
+  ascent: 7
+  height: 7
+  chat:
+    placeholders:
+      - ":blue_exclamation:"
+    permission: oraxen.emoji.exclamation_blue
+  char: ㌀
+
+exclamation_gray:
+  texture: kitomc/icons/exclamation_gray
+  ascent: 7
+  height: 7
+  chat:
+    placeholders:
+      - ":gray_exclamation:"
+    permission: oraxen.emoji.exclamation_gray
+  char: ㌁
+
+exclamation_red:
+  texture: kitomc/icons/exclamation_red
+  ascent: 7
+  height: 7
+  chat:
+    placeholders:
+      - ":red_exclamation:"
+    permission: oraxen.emoji.exclamation_red
+  char: ㌂
+
+exclamation_yellow:
+  texture: kitomc/icons/exclamation_yellow
+  ascent: 7
+  height: 7
+  chat:
+    placeholders:
+      - ":yellow_exclamation:"
+    permission: oraxen.emoji.exclamation_yellow
+  char: ㌃
+
+yes:
+  texture: kitomc/icons/yes
+  ascent: 7
+  height: 7
+  chat:
+    placeholders:
+      - ":yes:"
+    permission: oraxen.emoji.yes
+  char: ㌄
+
+no:
+  texture: kitomc/icons/no
+  ascent: 7
+  height: 7
+  chat:
+    placeholders:
+      - ":no:"
+    permission: oraxen.emoji.no
+  char: ㌅

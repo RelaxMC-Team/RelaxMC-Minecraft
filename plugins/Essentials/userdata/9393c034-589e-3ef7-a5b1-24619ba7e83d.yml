@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 14.191.72.232
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1721309446920
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1721309479195
+  login: 1721309113261
+money: '0'
+last-account-name: Harex
+lastlocation:
+  world: 6f9b3c5d-3ef0-4279-9892-7c1395f029e3
+  world-name: spawn
+  x: 59.530492887332294
+  y: 9.625
+  z: 35.71200375448827
+  yaw: 12.40875244140625
+  pitch: -6.038810729980469
+logoutlocation:
+  world: 6f9b3c5d-3ef0-4279-9892-7c1395f029e3
+  world-name: spawn
+  x: -28.708638649329718
+  y: 34.7012441391888
+  z: -107.96597707210634
+  yaw: -110.39266967773438
+  pitch: 64.65007019042969

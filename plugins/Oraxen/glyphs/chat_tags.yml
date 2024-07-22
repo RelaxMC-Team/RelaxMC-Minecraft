@@ -1,0 +1,89 @@
+knight_tag:
+  texture: default/chat/knight_tag
+  ascent: 9
+  height: 10
+  chat:
+    placeholders:
+      - ":knight:"
+    permission: oraxen.emoji.knight
+  char: ꐒ
+
+logo_relaxmc:
+  texture: kitomc/logo
+  ascent: 24
+  height: 24
+  chat:
+    placeholders:
+      - ":logo_relaxmc:"
+    permission: oraxen.emoji.logo_relaxmc
+  char: Ⴀ
+
+owner_rank:
+  texture: kitomc/ranks/owner
+  ascent: 7
+  height: 7
+  chat:
+    placeholders:
+      - ":owner_rank:"
+    permission: oraxen.emoji.owner
+  char: Ⴐ
+
+co_owner_rank:
+  texture: kitomc/ranks/co_owner
+  ascent: 7
+  height: 7
+  chat:
+    placeholders:
+      - ":co_owner_rank:"
+    permission: oraxen.emoji.co_owner
+  char: Ⴑ
+
+admin_rank:
+  texture: kitomc/ranks/admin
+  ascent: 7
+  height: 7
+  chat:
+    placeholders:
+      - ":admin_rank:"
+    permission: oraxen.emoji.admin
+  char: Ⴒ
+
+player_rank:
+  texture: kitomc/ranks/player
+  ascent: 7
+  height: 7
+  chat:
+    placeholders:
+      - ":player_rank:"
+    permission: oraxen.emoji.player_rank
+  char: Ⴟ
+
+player_sub_rank:
+  texture: kitomc/ranks/sub_player
+  ascent: 7
+  height: 7
+  chat:
+    placeholders:
+      - ":player_sub_rank:"
+    permission: oraxen.emoji.player_sub_rank
+  char: Ⴁ
+
+owner_sub_rank:
+  texture: kitomc/ranks/sub_owner
+  ascent: 7
+  height: 7
+  chat:
+    placeholders:
+      - ":owner_sub_rank:"
+    permission: oraxen.emoji.owner_sub_rank
+  char: Ⴂ
+
+npc_tag:
+  texture: kitomc/ranks/npc
+  ascent: 7
+  height: 7
+  chat:
+    placeholders:
+      - ":npc_tag:"
+    permission: oraxen.emoji.npc_tag
+  char: Ⴃ
