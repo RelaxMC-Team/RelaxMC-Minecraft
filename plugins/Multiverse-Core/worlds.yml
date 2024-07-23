@@ -1,15 +1,15 @@
 worlds:
-  world:
+  spawn:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: spawn
     color: WHITE
     style: NORMAL
     pvp: 'true'
     scale: '1.0'
     respawnWorld: ''
     allowWeather: 'true'
-    difficulty: EASY
+    difficulty: PEACEFUL
     spawning:
       ==: MVSpawnSettings
       animals:
@@ -33,16 +33,16 @@ worlds:
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: 96.0
-      y: 67.0
-      z: -464.0
+      x: 0.0
+      y: 85.0
+      z: 0.0
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NORMAL
-    seed: '-986670161567634411'
+    seed: '-1080560130829972613'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
@@ -93,17 +93,17 @@ worlds:
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
-  spawn:
+  world:
     ==: MVWorld
     hidden: 'false'
-    alias: spawn
+    alias: ''
     color: WHITE
     style: NORMAL
     pvp: 'true'
     scale: '1.0'
     respawnWorld: ''
     allowWeather: 'true'
-    difficulty: PEACEFUL
+    difficulty: EASY
     spawning:
       ==: MVSpawnSettings
       animals:
@@ -127,16 +127,16 @@ worlds:
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: 0.0
-      y: 85.0
-      z: 0.0
+      x: 96.0
+      y: 67.0
+      z: -464.0
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NORMAL
-    seed: '-1080560130829972613'
+    seed: '-986670161567634411'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'

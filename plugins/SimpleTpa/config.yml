@@ -7,72 +7,71 @@
 
 # Place Holders: %time% | %player% | %option%
 
-
 # !!!!!!!!!!!!!!!!
 # This options will support all plugins that use teleport stuff
-# If you want the plugin to log the previus teleport locations for the /back command from other plugins -> set this to true
+# If you want the plugin to log the previous teleport locations for the /back command from other plugins -> set this to true
 enable-teleport-logging: false
 # !!!!!!!!!!!!!!!!
 
 #If you set it to true, you will disable the prefix
 #Make sure to restart the server in order to apply it
 disable-prefix: false
-prefix: "&c[&6SimpleTpa&c]"
+prefix: "㌀"
 
 #Messages:
 # To use HEX COLOR CODES - EXAMPLE: #2ecc71
-# Death-Message: "&6To teleport to your death #2ecc71location use &c/back"
+# Death-Message: "#FFC0CBTo teleport to your death #2ecc71location use #EE4FC5/back"
 
 # TO DISABLE A MESSAGE - SET IT TO - NONE
 # EXAMPLE:
 # Console-Isnt-Player: "none"
-Console-Isnt-Player: "&6Console can't use &cSimpleTpa&6!"
-Disabled-World-Message: "&6You can't use &cSimpleTpa &6in this World!"
-Teleport-Message: "&6You will be teleported in &c%time% &6seconds!"
-Teleport-Message-Back-To-Player: "&6You &caccepted &6the teleport request!"
-Player-Is-Null: "&6The player is not &conline&6!"
-Player-Doesnt-Have-Back-Point: "&6The player doesn't have any back locations!"
-Player-Doesnt-Have-Back-Point-1: "&6You don't have any back locations!"
-Cooldown-Message: "&6You can't use that command for %time% seconds yet!"
-Death-Message: "&6To teleport to your death location use &c/back"
-Teleport-Message-Back-To-Sender-TPHEREALL: "&6Sending a teleport here request to &ceveryone&6!"
-No-Permission-Message: "&6You don't have permission for this command!"
-TpaToggle-Deactivated-Player-2: "&c%player% &6disabled the teleportation to you!"
-TpaToggle-Activated-Player-2: "&c%player% &6enabled the teleportation to you!"
-TpaToggle-Deactivated-Player: "&6You &cdisabled&6 the teleportation for &c%player%&6."
-TpaToggle-Activated-Player: "&6You &cenabled&6 the teleportation for &c%player%&6."
-TpaToggle-Deactivated: "&6You &cdisabled&6 the teleportation to you."
-TpaToggle-Activated: "&6You &cenabled&6 the teleportation to you."
-TpaToggled-Player-Message: "&6The player has &cdisabled &6the teleportation to him!"
-Player-Is-Player: "&6You can't teleport to &cyourself&6!"
-Already-A-TP-Request: "&6You already have &csent &6a teleport request! If you want to cancel it &c/tpcancel player "
-Tpa-Usage-Message: "&6Please use: &c/tpa (player)"
-Timed-Out-Message: "&6Your &cteleport request&6 has timed out!"
-Sending-Teleport-Request: "&6Sending a teleport request to &c%player%&6. If you want to cancel it &c/tpcancel player "
-Accept-Message: "&6To accept the teleport request, type &c/tpaccept"
-Deny-Message: "&6To deny the teleport request, type &c/tpdeny"
-Sent-Request-On-You: "&c%player% &6has sent you a teleport request!"
-Timed-Out-Here-Message: "&6Your teleport here request has &ctimed out!"
-Sending-Teleport-Here-Request: "&6Sending a teleport here request to &c%player%&6. If you want to cancel it &c/tpcancel player"
-Sent-Here-Request-On-You: "&c%player% &6has sent you a teleport here request!"
-Already-A-TPHere-Request: "&6You already have &csent &6a teleport here request! If you want to cancel it &c/tpcancel player"
-Tpa-Here-Usage-Message: "&6Please use: &c/tpahere (player)"
-No-Teleport-Requests: "&6You don't have any teleport requests!"
-Invalid-Player: "&6It seems the player who was teleporting to you has left the server!"
-Teleport-Message-Back-To-Sender: "&c%player% &6has accepted your teleportation request."
-Teleported-Message: "&6Teleported!"
-Move-Cancel-Message: "&6You have moved and the teleport request has been removed!"
-Rejected-Sender: "&6The player has rejected your &crequest&6!"
-Rejected-Message: "&6You have rejected the &crequest&6!"
-Player-Is-In-Disabled-World: "&6The player you wanted to teleport to is in &cdisabled world&6!"
-Tpcancel-Usage-Message: "&6Please use: &c/tpcancel (player)"
-Error-Cancelling-Request: "&6You can't cancel your own &crequest!"
-Request-Cancelled: "&6You successfully cancelled the &cteleportation request&6!"
-Death-Message-Coords: "&6Your death location is: &c%coords%&6!"
-Time-Left: "&6You have &c%seconds% &6seconds to accept or deny the request"
-Damaged-Cancel-Message: "&6You were damaged and the teleport request has been removed!"
-Different-Gamemode: "&6You can't use any teleportation commands, because you are in &cSPECTATOR &6mode!"
-World-Doesnt-Exists-Or-Unloaded: "&6The world you're trying to teleport to is either unloaded or doesn't exist!"
+Console-Isnt-Player: "#FFC0CBConsole can't use #EE4FC5SimpleTpa#FFC0CB!"
+Disabled-World-Message: "#FFC0CBYou can't use #EE4FC5SimpleTpa #FFC0CBin this World!"
+Teleport-Message: "#FFC0CBYou will be teleported in #EE4FC5%time% #FFC0CBseconds!"
+Teleport-Message-Back-To-Player: "#FFC0CBYou #EE4FC5accepted #FFC0CBthe teleport request!"
+Player-Is-Null: "#FFC0CBThe player is not #EE4FC5online#FFC0CB!"
+Player-Doesnt-Have-Back-Point: "#FFC0CBThe player doesn't have any back locations!"
+Player-Doesnt-Have-Back-Point-1: "#FFC0CBYou don't have any back locations!"
+Cooldown-Message: "#FFC0CBYou can't use that command for %time% seconds yet!"
+Death-Message: "#FFC0CBTo teleport to your death location use #EE4FC5/back"
+Teleport-Message-Back-To-Sender-TPHEREALL: "#FFC0CBSending a teleport here request to #EE4FC5everyone#FFC0CB!"
+No-Permission-Message: "#FFC0CBYou don't have permission for this command!"
+TpaToggle-Deactivated-Player-2: "#EE4FC5%player% #FFC0CBdisabled the teleportation to you!"
+TpaToggle-Activated-Player-2: "#EE4FC5%player% #FFC0CBenabled the teleportation to you!"
+TpaToggle-Deactivated-Player: "#FFC0CBYou #EE4FC5disabled#FFC0CB the teleportation for #EE4FC5%player%#FFC0CB."
+TpaToggle-Activated-Player: "#FFC0CBYou #EE4FC5enabled#FFC0CB the teleportation for #EE4FC5%player%#FFC0CB."
+TpaToggle-Deactivated: "#FFC0CBYou #EE4FC5disabled#FFC0CB the teleportation to you."
+TpaToggle-Activated: "#FFC0CBYou #EE4FC5enabled#FFC0CB the teleportation to you."
+TpaToggled-Player-Message: "#FFC0CBThe player has #EE4FC5disabled #FFC0CBthe teleportation to him!"
+Player-Is-Player: "#FFC0CBYou can't teleport to #EE4FC5yourself#FFC0CB!"
+Already-A-TP-Request: "#FFC0CBYou already have #EE4FC5sent #FFC0CBa teleport request! If you want to cancel it #EE4FC5/tpcancel player "
+Tpa-Usage-Message: "#FFC0CBPlease use: #EE4FC5/tpa (player)"
+Timed-Out-Message: "#FFC0CBYour #EE4FC5teleport request#FFC0CB has timed out!"
+Sending-Teleport-Request: "#FFC0CBSending a teleport request to #EE4FC5%player%#FFC0CB. If you want to cancel it #EE4FC5/tpcancel player "
+Accept-Message: "#FFC0CBTo accept the teleport request, type #EE4FC5/tpaccept"
+Deny-Message: "#FFC0CBTo deny the teleport request, type #EE4FC5/tpdeny"
+Sent-Request-On-You: "#EE4FC5%player% #FFC0CBhas sent you a teleport request!"
+Timed-Out-Here-Message: "#FFC0CBYour teleport here request has #EE4FC5timed out!"
+Sending-Teleport-Here-Request: "#FFC0CBSending a teleport here request to #EE4FC5%player%#FFC0CB. If you want to cancel it #EE4FC5/tpcancel player"
+Sent-Here-Request-On-You: "#EE4FC5%player% #FFC0CBhas sent you a teleport here request!"
+Already-A-TPHere-Request: "#FFC0CBYou already have #EE4FC5sent #FFC0CBa teleport here request! If you want to cancel it #EE4FC5/tpcancel player"
+Tpa-Here-Usage-Message: "#FFC0CBPlease use: #EE4FC5/tpahere (player)"
+No-Teleport-Requests: "#FFC0CBYou don't have any teleport requests!"
+Invalid-Player: "#FFC0CBIt seems the player who was teleporting to you has left the server!"
+Teleport-Message-Back-To-Sender: "#EE4FC5%player% #FFC0CBhas accepted your teleportation request."
+Teleported-Message: "#FFC0CBTeleported!"
+Move-Cancel-Message: "#FFC0CBYou have moved and the teleport request has been removed!"
+Rejected-Sender: "#FFC0CBThe player has rejected your #EE4FC5request#FFC0CB!"
+Rejected-Message: "#FFC0CBYou have rejected the #EE4FC5request#FFC0CB!"
+Player-Is-In-Disabled-World: "#FFC0CBThe player you wanted to teleport to is in #EE4FC5disabled world#FFC0CB!"
+Tpcancel-Usage-Message: "#FFC0CBPlease use: #EE4FC5/tpcancel (player)"
+Error-Cancelling-Request: "#FFC0CBYou can't cancel your own #EE4FC5request!"
+Request-Cancelled: "#FFC0CBYou successfully cancelled the #EE4FC5teleportation request#FFC0CB!"
+Death-Message-Coords: "#FFC0CBYour death location is: #EE4FC5%coords%#FFC0CB!"
+Time-Left: "#FFC0CBYou have #EE4FC5%seconds% #FFC0CBseconds to accept or deny the request"
+Damaged-Cancel-Message: "#FFC0CBYou were damaged and the teleport request has been removed!"
+Different-Gamemode: "#FFC0CBYou can't use any teleportation commands, because you are in #EE4FC5SPECTATOR #FFC0CBmode!"
+World-Doesnt-Exists-Or-Unloaded: "#FFC0CBThe world you're trying to teleport to is either unloaded or doesn't exist!"
 ## BUTTONS
 #Here you can find the colors https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/ChatColor.html
 
@@ -89,24 +88,24 @@ Particle-Name: "EXPLOSION_NORMAL"
 Accept-Button: "ACCEPT"
 Accept-Button-Color: "RED"
 Accept-Button-Set-Bold: true
-Accept-Button-Description: "&6Click here to &cACCEPT &6the tp request!"
+Accept-Button-Description: "#FFC0CBClick here to #EE4FC5ACCEPT #FFC0CBthe tp request!"
 
 #Middle Button Properties
 Middle-Button: " | "
 Middle-Button-Color: "GRAY"
 Middle-Button-Set-Bold: true
-Middle-Button-Description: "&7 <- Choose between -> "
+Middle-Button-Description: "#7 <- Choose between -> "
 
 #Deny Button Properties
 Deny-Button: "DENY"
 Deny-Button-Color: "RED"
 Deny-Button-Set-Bold: true
-Deny-Button-Description: "&6Click here to &cDENY &6the tp request!"
+Deny-Button-Description: "#FFC0CBClick here to #EE4FC5DENY #FFC0CBthe tp request!"
 
 # If you want to disable simpletpa for some worlds, then you can add them by adding - 'NameOfTheWorld'
 #Disabled Worlds:
 disabled-worlds:
-  - 'disabledworld'
+  - "disabledworld"
 
 # If you set anything to true, you will disable it.
 # B A C K    S E T T I N G S
@@ -159,6 +158,3 @@ tpahereall-cooldown: 10
 #The options for commands are: tpa | tpahere | back | tpahereall
 #Example: simpletpa.cooldown.tpa.300 | simpletpa.cooldown.tpahere.300 | simpletpa.cooldown.tpahereall.300 | simpletpa.cooldown.back.300
 #This will set the cooldown for tpa/ tpahere/ tpahereall / back to 300 seconds
-
-
-

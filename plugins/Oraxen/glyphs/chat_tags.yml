@@ -1,13 +1,3 @@
-knight_tag:
-  texture: default/chat/knight_tag
-  ascent: 9
-  height: 10
-  chat:
-    placeholders:
-      - ":knight:"
-    permission: oraxen.emoji.knight
-  char: ꐒ
-
 logo_relaxmc:
   texture: kitomc/logo
   ascent: 24

@@ -10,13 +10,11 @@
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
 regions:
-    spawn:
-        min: {x: -200, y: -60, z: -200}
-        max: {x: 260, y: 198, z: 260}
-        members: {}
-        flags: {other-explosion: deny, wither-damage: deny, creeper-explosion: deny,
-            build: deny, fall-damage: deny, block-break: deny, pvp: deny, heal-amount: 2,
-            block-place: deny, mob-spawning: deny}
-        owners: {}
-        type: cuboid
-        priority: 0
+  spawn:
+    min: { x: -200, y: -60, z: -200 }
+    max: { x: 260, y: 198, z: 260 }
+    members: {}
+    flags: { other-explosion: deny, wither-damage: deny, creeper-explosion: deny, build: deny, fall-damage: deny, block-break: deny, pvp: deny, heal-amount: 2, block-place: deny, mob-spawning: deny }
+    owners: {}
+    type: cuboid
+    priority: 0

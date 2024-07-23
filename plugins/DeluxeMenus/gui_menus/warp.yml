@@ -1,0 +1,9 @@
+menu_title: "<shift:-9>ꐟ"
+open_command:
+  - warpss
+size: 54
+items:
+  "example":
+    material: LIME_DYE
+    slot: 11
+    priority: 1

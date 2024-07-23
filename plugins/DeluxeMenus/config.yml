@@ -6,9 +6,7 @@
 debug: HIGHEST
 check_updates: true
 gui_menus:
-  basics_menu:
-    file: basics_menu.yml
   advanced_menu:
     file: advanced_menu.yml
-  requirements_menu:
-    file: requirements_menu.yml
+  warp_menu:
+    file: warp.yml

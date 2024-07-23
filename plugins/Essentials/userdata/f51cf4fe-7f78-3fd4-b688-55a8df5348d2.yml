@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1721614835810
-  login: 1721614893068
+  logout: 1721615835614
+  login: 1721615397087
 money: '0'
 last-account-name: KaiShin_SSG
 lastlocation:
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 6f9b3c5d-3ef0-4279-9892-7c1395f029e3
   world-name: spawn
-  x: 68.93033096585057
+  x: 74.45398391233077
   y: 8.0
-  z: 43.05483252497166
-  yaw: 112.701171875
-  pitch: 31.88389778137207
+  z: 46.90801519007475
+  yaw: 131.6070556640625
+  pitch: 51.88898849487305

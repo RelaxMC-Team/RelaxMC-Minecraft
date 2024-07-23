@@ -2,13 +2,13 @@
 # Make sure you delete all entries found in other files
 # For example, language file uses logo glyph
 logo:
-  texture: required/logo
-  ascent: 20
-  height: 36
+  texture: kitomc/logo
+  ascent: 0
+  height: 30
   char: ꐙ
 
 menu_banner:
-  texture: required/ui/menu_banner
+  texture: kitomc/menu_banner
   ascent: -10
   height: 236
   char: ꐚ
@@ -36,3 +36,9 @@ recipe_stonecutter:
   ascent: 40
   height: 164
   char: ꐞ
+
+warp:
+  texture: kitomc/guis/warps
+  ascent: 13
+  height: 138
+  char: ꐟ

@@ -57,3 +57,23 @@ no:
       - ":no:"
     permission: oraxen.emoji.no
   char: ㌅
+
+earth:
+  texture: kitomc/icons/earth
+  ascent: 9
+  height: 9
+  chat:
+    placeholders:
+      - ":earth:"
+    permission: oraxen.emoji.earth
+  char: ㌆
+
+clock:
+  texture: kitomc/icons/clock
+  ascent: 9
+  height: 9
+  chat:
+    placeholders:
+      - ":clock:"
+    permission: oraxen.emoji.clock
+  char: ㌇
