@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 0:0:0:0:0:0:0:1%0
+ip-address: 127.195.32.78
 afk: false
 socialspy: false
 npc: false
@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1721712206970
+  lastteleport: 1721795896846
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1721789009545
-  login: 1721788513782
+  logout: 1721797734147
+  login: 1721796315972
 money: '0'
 last-account-name: KitoMC
 logoutlocation:
   world: 6f9b3c5d-3ef0-4279-9892-7c1395f029e3
   world-name: spawn
-  x: 41.69999998807907
-  y: 4.0
-  z: 20.256116283875073
-  yaw: -70.48014831542969
-  pitch: 16.250606536865234
+  x: 49.205152866179255
+  y: 7.0
+  z: 22.324361337780594
+  yaw: 0.91815185546875
+  pitch: 35.04928207397461
 lastlocation:
   world: 25c6a73e-6792-4f4e-8534-991924f06ad0
   world-name: world
-  x: 242.75354400483215
-  y: 139.64927731973174
-  z: -404.02318384359626
-  yaw: -105.85955810546875
-  pitch: 51.509220123291016
+  x: -272.7780333864742
+  y: -8.0
+  z: -267.90066250025626
+  yaw: -12.7225341796875
+  pitch: 2.754951000213623
 homes:
   home:
     world: 6f9b3c5d-3ef0-4279-9892-7c1395f029e3

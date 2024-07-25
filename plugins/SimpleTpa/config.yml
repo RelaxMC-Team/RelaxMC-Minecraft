@@ -5,156 +5,85 @@
 # |____/  |_| |_| |_| |_| | .__/  |_|  \___|   |_|   | .__/   \__,_|
 #                         |_|                        |_|
 
-# Place Holders: %time% | %player% | %option%
+# Các placeholder: %time% | %player% | %option%
 
 # !!!!!!!!!!!!!!!!
-# This options will support all plugins that use teleport stuff
-# If you want the plugin to log the previous teleport locations for the /back command from other plugins -> set this to true
+# Tùy chọn này sẽ hỗ trợ tất cả các plugin sử dụng tính năng dịch chuyển
+# Nếu bạn muốn plugin ghi lại các vị trí dịch chuyển trước đó cho lệnh /back từ các plugin khác -> đặt giá trị này là true
 enable-teleport-logging: false
 # !!!!!!!!!!!!!!!!
 
-#If you set it to true, you will disable the prefix
-#Make sure to restart the server in order to apply it
+# Nếu bạn đặt là true, bạn sẽ tắt tiền tố
+# Hãy chắc chắn khởi động lại server để áp dụng thay đổi
 disable-prefix: false
 prefix: "㌀"
 
-#Messages:
-# To use HEX COLOR CODES - EXAMPLE: #2ecc71
-# Death-Message: "#FFC0CBTo teleport to your death #2ecc71location use #EE4FC5/back"
+# Tin nhắn:
+# Để sử dụng mã màu HEX - VÍ DỤ: #2ecc71
+# Death-Message: "#FFC0CBĐể dịch chuyển đến vị trí chết của bạn, sử dụng #2ecc71/back"
 
-# TO DISABLE A MESSAGE - SET IT TO - NONE
-# EXAMPLE:
+# ĐỂ TẮT MỘT TIN NHẮN - ĐẶT GIÁ TRỊ LÀ - NONE
+# VÍ DỤ:
 # Console-Isnt-Player: "none"
-Console-Isnt-Player: "#FFC0CBConsole can't use #EE4FC5SimpleTpa#FFC0CB!"
-Disabled-World-Message: "#FFC0CBYou can't use #EE4FC5SimpleTpa #FFC0CBin this World!"
-Teleport-Message: "#FFC0CBYou will be teleported in #EE4FC5%time% #FFC0CBseconds!"
-Teleport-Message-Back-To-Player: "#FFC0CBYou #EE4FC5accepted #FFC0CBthe teleport request!"
-Player-Is-Null: "#FFC0CBThe player is not #EE4FC5online#FFC0CB!"
-Player-Doesnt-Have-Back-Point: "#FFC0CBThe player doesn't have any back locations!"
-Player-Doesnt-Have-Back-Point-1: "#FFC0CBYou don't have any back locations!"
-Cooldown-Message: "#FFC0CBYou can't use that command for %time% seconds yet!"
-Death-Message: "#FFC0CBTo teleport to your death location use #EE4FC5/back"
-Teleport-Message-Back-To-Sender-TPHEREALL: "#FFC0CBSending a teleport here request to #EE4FC5everyone#FFC0CB!"
-No-Permission-Message: "#FFC0CBYou don't have permission for this command!"
-TpaToggle-Deactivated-Player-2: "#EE4FC5%player% #FFC0CBdisabled the teleportation to you!"
-TpaToggle-Activated-Player-2: "#EE4FC5%player% #FFC0CBenabled the teleportation to you!"
-TpaToggle-Deactivated-Player: "#FFC0CBYou #EE4FC5disabled#FFC0CB the teleportation for #EE4FC5%player%#FFC0CB."
-TpaToggle-Activated-Player: "#FFC0CBYou #EE4FC5enabled#FFC0CB the teleportation for #EE4FC5%player%#FFC0CB."
-TpaToggle-Deactivated: "#FFC0CBYou #EE4FC5disabled#FFC0CB the teleportation to you."
-TpaToggle-Activated: "#FFC0CBYou #EE4FC5enabled#FFC0CB the teleportation to you."
-TpaToggled-Player-Message: "#FFC0CBThe player has #EE4FC5disabled #FFC0CBthe teleportation to him!"
-Player-Is-Player: "#FFC0CBYou can't teleport to #EE4FC5yourself#FFC0CB!"
-Already-A-TP-Request: "#FFC0CBYou already have #EE4FC5sent #FFC0CBa teleport request! If you want to cancel it #EE4FC5/tpcancel player "
-Tpa-Usage-Message: "#FFC0CBPlease use: #EE4FC5/tpa (player)"
-Timed-Out-Message: "#FFC0CBYour #EE4FC5teleport request#FFC0CB has timed out!"
-Sending-Teleport-Request: "#FFC0CBSending a teleport request to #EE4FC5%player%#FFC0CB. If you want to cancel it #EE4FC5/tpcancel player "
-Accept-Message: "#FFC0CBTo accept the teleport request, type #EE4FC5/tpaccept"
-Deny-Message: "#FFC0CBTo deny the teleport request, type #EE4FC5/tpdeny"
-Sent-Request-On-You: "#EE4FC5%player% #FFC0CBhas sent you a teleport request!"
-Timed-Out-Here-Message: "#FFC0CBYour teleport here request has #EE4FC5timed out!"
-Sending-Teleport-Here-Request: "#FFC0CBSending a teleport here request to #EE4FC5%player%#FFC0CB. If you want to cancel it #EE4FC5/tpcancel player"
-Sent-Here-Request-On-You: "#EE4FC5%player% #FFC0CBhas sent you a teleport here request!"
-Already-A-TPHere-Request: "#FFC0CBYou already have #EE4FC5sent #FFC0CBa teleport here request! If you want to cancel it #EE4FC5/tpcancel player"
-Tpa-Here-Usage-Message: "#FFC0CBPlease use: #EE4FC5/tpahere (player)"
-No-Teleport-Requests: "#FFC0CBYou don't have any teleport requests!"
-Invalid-Player: "#FFC0CBIt seems the player who was teleporting to you has left the server!"
-Teleport-Message-Back-To-Sender: "#EE4FC5%player% #FFC0CBhas accepted your teleportation request."
-Teleported-Message: "#FFC0CBTeleported!"
-Move-Cancel-Message: "#FFC0CBYou have moved and the teleport request has been removed!"
-Rejected-Sender: "#FFC0CBThe player has rejected your #EE4FC5request#FFC0CB!"
-Rejected-Message: "#FFC0CBYou have rejected the #EE4FC5request#FFC0CB!"
-Player-Is-In-Disabled-World: "#FFC0CBThe player you wanted to teleport to is in #EE4FC5disabled world#FFC0CB!"
-Tpcancel-Usage-Message: "#FFC0CBPlease use: #EE4FC5/tpcancel (player)"
-Error-Cancelling-Request: "#FFC0CBYou can't cancel your own #EE4FC5request!"
-Request-Cancelled: "#FFC0CBYou successfully cancelled the #EE4FC5teleportation request#FFC0CB!"
-Death-Message-Coords: "#FFC0CBYour death location is: #EE4FC5%coords%#FFC0CB!"
-Time-Left: "#FFC0CBYou have #EE4FC5%seconds% #FFC0CBseconds to accept or deny the request"
-Damaged-Cancel-Message: "#FFC0CBYou were damaged and the teleport request has been removed!"
-Different-Gamemode: "#FFC0CBYou can't use any teleportation commands, because you are in #EE4FC5SPECTATOR #FFC0CBmode!"
-World-Doesnt-Exists-Or-Unloaded: "#FFC0CBThe world you're trying to teleport to is either unloaded or doesn't exist!"
-## BUTTONS
-#Here you can find the colors https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/ChatColor.html
+Console-Isnt-Player: "#FFC0CBConsole không thể sử dụng #EE4FC5SimpleTpa#FFC0CB!"
+Disabled-World-Message: "#FFC0CBBạn không thể sử dụng #EE4FC5SimpleTpa #FFC0CBtrong thế giới này!"
+Teleport-Message: "#FFC0CBBạn sẽ được dịch chuyển sau #EE4FC5%time% #FFC0CBgiây!"
+Teleport-Message-Back-To-Player: "#FFC0CBBạn #EE4FC5đã chấp nhận #FFC0CByêu cầu dịch chuyển!"
+Player-Is-Null: "#FFC0CBNgười chơi không #EE4FC5trực tuyến#FFC0CB!"
+Player-Doesnt-Have-Back-Point: "#FFC0CBNgười chơi không có vị trí back nào!"
+Player-Doesnt-Have-Back-Point-1: "#FFC0CBBạn không có vị trí back nào!"
+Cooldown-Message: "#FFC0CBBạn không thể sử dụng lệnh này trong %time% giây nữa!"
+Death-Message: "#FFC0CBĐể dịch chuyển đến vị trí chết của bạn, sử dụng #EE4FC5/back"
+Teleport-Message-Back-To-Sender-TPHEREALL: "#FFC0CBĐang gửi yêu cầu dịch chuyển đến tất cả mọi người#EE4FC5!"
+No-Permission-Message: "#FFC0CBBạn không có quyền sử dụng lệnh này!"
+TpaToggle-Deactivated-Player-2: "#EE4FC5%player% #FFC0CBđã tắt tính năng dịch chuyển đến bạn!"
+TpaToggle-Activated-Player-2: "#EE4FC5%player% #FFC0CBđã bật tính năng dịch chuyển đến bạn!"
+TpaToggle-Deactivated-Player: "#FFC0CBBạn #EE4FC5đã tắt#FFC0CB tính năng dịch chuyển cho #EE4FC5%player%#FFC0CB."
+TpaToggle-Activated-Player: "#FFC0CBBạn #EE4FC5đã bật#FFC0CB tính năng dịch chuyển cho #EE4FC5%player%#FFC0CB."
+TpaToggle-Deactivated: "#FFC0CBBạn #EE4FC5đã tắt#FFC0CB tính năng dịch chuyển đến bạn."
+TpaToggle-Activated: "#FFC0CBBạn #EE4FC5đã bật#FFC0CB tính năng dịch chuyển đến bạn."
+TpaToggled-Player-Message: "#FFC0CBNgười chơi đã #EE4FC5tắt #FFC0CBtính năng dịch chuyển đến họ!"
+Player-Is-Player: "#FFC0CBBạn không thể dịch chuyển đến #EE4FC5chính mình#FFC0CB!"
+Already-A-TP-Request: "#FFC0CBBạn đã #EE4FC5gửi #FFC0CBmột yêu cầu dịch chuyển! Nếu bạn muốn hủy bỏ, #EE4FC5/tpcancel player "
+Tpa-Usage-Message: "#FFC0CBVui lòng sử dụng: #EE4FC5/tpa (player)"
+Timed-Out-Message: "#FFC0CBYêu cầu dịch chuyển của bạn đã #EE4FC5hết hạn#FFC0CB!"
+Sending-Teleport-Request: "#FFC0CBĐang gửi yêu cầu dịch chuyển đến #EE4FC5%player%#FFC0CB. Nếu bạn muốn hủy bỏ, #EE4FC5/tpcancel player "
+Accept-Message: "#FFC0CBĐể chấp nhận yêu cầu dịch chuyển, gõ #EE4FC5/tpaccept"
+Deny-Message: "#FFC0CBĐể từ chối yêu cầu dịch chuyển, gõ #EE4FC5/tpdeny"
+Sent-Request-On-You: "#EE4FC5%player% #FFC0CBđã gửi bạn một yêu cầu dịch chuyển!"
+Timed-Out-Here-Message: "#FFC0CBYêu cầu dịch chuyển của bạn đã #EE4FC5hết hạn!"
+Sending-Teleport-Here-Request: "#FFC0CBĐang gửi yêu cầu dịch chuyển đến đây cho #EE4FC5%player%#FFC0CB. Nếu bạn muốn hủy bỏ, #EE4FC5/tpcancel player"
+Sent-Here-Request-On-You: "#EE4FC5%player% #FFC0CBđã gửi bạn một yêu cầu dịch chuyển đến đây!"
+Already-A-TPHere-Request: "#FFC0CBBạn đã #EE4FC5gửi #FFC0CBmột yêu cầu dịch chuyển đến đây! Nếu bạn muốn hủy bỏ, #EE4FC5/tpcancel player"
+Tpa-Here-Usage-Message: "#FFC0CBVui lòng sử dụng: #EE4FC5/tpahere (player)"
+No-Teleport-Requests: "#FFC0CBBạn không có yêu cầu dịch chuyển nào!"
+Invalid-Player: "#FFC0CBCó vẻ như người chơi mà bạn muốn dịch chuyển đến đã rời khỏi server!"
+Teleport-Message-Back-To-Sender: "#EE4FC5%player% #FFC0CBđã chấp nhận yêu cầu dịch chuyển của bạn."
+Teleported-Message: "#FFC0CBDịch chuyển thành công!"
+Move-Cancel-Message: "#FFC0CBBạn đã di chuyển và yêu cầu dịch chuyển đã bị hủy bỏ!"
+Rejected-Sender: "#FFC0CBNgười chơi đã từ chối #EE4FC5yêu cầu#FFC0CB của bạn!"
+Rejected-Message: "#FFC0CBBạn đã từ chối #EE4FC5yêu cầu#FFC0CB!"
+Player-Is-In-Disabled-World: "#FFC0CBNgười chơi mà bạn muốn dịch chuyển đến đang ở trong thế giới #EE4FC5bị vô hiệu hóa#FFC0CB!"
+Tpcancel-Usage-Message: "#FFC0CBVui lòng sử dụng: #EE4FC5/tpcancel (player)"
+Error-Cancelling-Request: "#FFC0CBBạn không thể hủy bỏ #EE4FC5yêu cầu#FFC0CB của chính mình!"
+Request-Cancelled: "#FFC0CBBạn đã hủy bỏ #EE4FC5yêu cầu dịch chuyển#FFC0CB thành công!"
+Death-Message-Coords: "#FFC0CBVị trí chết của bạn là: #EE4FC5%coords%#FFC0CB!"
+Time-Left: "#FFC0CBBạn còn #EE4FC5%seconds% #FFC0CBgiây để chấp nhận hoặc từ chối yêu cầu"
+Damaged-Cancel-Message: "#FFC0CBBạn đã bị tổn thương và yêu cầu dịch chuyển đã bị hủy bỏ!"
+Different-Gamemode: "#FFC0CBBạn không thể sử dụng lệnh dịch chuyển, vì bạn đang ở chế độ #EE4FC5SPECTATOR #FFC0CB!"
+World-Doesnt-Exists-Or-Unloaded: "#FFC0CBThế giới bạn đang cố gắng dịch chuyển đến không tồn tại hoặc đã bị dỡ tải!"
+## NÚT
+# Bạn có thể tìm thấy các mã màu tại đây https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/ChatColor.html
 
-# PARTICLES AND SOUNDS
-# Here you can change the sound volume or the pitch. These are the recommended values
-# Select the name for the sound from here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+# HIỆU ỨNG HẠT VÀ ÂM THANH
+# Bạn có thể thay đổi âm lượng hoặc độ cao âm thanh. Đây là các giá trị khuyến nghị
+# Chọn tên âm thanh tại đây: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
 Sound-Name: "ENTITY_EXPERIENCE_ORB_PICKUP"
 sound-volume: 3.0
 sound-pitch: 0.533
-# Select the name for the particle from here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html
-Particle-Name: "EXPLOSION_NORMAL"
+# Chọn tên hạt tại đây: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html
+Particle-Name: "SPELL_WITCH"
 
-#Accept Button Properties
-Accept-Button: "ACCEPT"
-Accept-Button-Color: "RED"
-Accept-Button-Set-Bold: true
-Accept-Button-Description: "#FFC0CBClick here to #EE4FC5ACCEPT #FFC0CBthe tp request!"
-
-#Middle Button Properties
-Middle-Button: " | "
-Middle-Button-Color: "GRAY"
-Middle-Button-Set-Bold: true
-Middle-Button-Description: "#7 <- Choose between -> "
-
-#Deny Button Properties
-Deny-Button: "DENY"
-Deny-Button-Color: "RED"
-Deny-Button-Set-Bold: true
-Deny-Button-Description: "#FFC0CBClick here to #EE4FC5DENY #FFC0CBthe tp request!"
-
-# If you want to disable simpletpa for some worlds, then you can add them by adding - 'NameOfTheWorld'
-#Disabled Worlds:
-disabled-worlds:
-  - "disabledworld"
-
-# If you set anything to true, you will disable it.
-# B A C K    S E T T I N G S
-
-#If you want to disable the back command, then set this to true
-disable-back-command: false
-
-# If you want to disable the death coords message, then set this to true
-disable-coords-message: false
-
-# If you want to disable saving the death location, then set this to true
-disable-back-on-death: false
-
-# If you want to disable saving the TP Locations such as TPA, TPAHERE, then set this to true
-disable-back-on-tp: false
-
-#Booleans
-#  If you want to disable checking for gamemode if equals to spectator, then set this to true
-disable-gamemode-check: false
-#  If you want to disable saving the accept or deny buttons, then set this to true
-disable-accept-deny-buttons: false
-#  If you want to disable saving the particles, then set this to true
-disable-particles: false
-#  If you want to disable saving the move system, then set this to true
-disable-move-system: false
-# If you want to disable sounds from the plugin, then set this to true
-disable-sound: false
-
-# If you want to disable interdimensional travel(only allowed to use the plugin in the same world with other player), then set this to true
-disable-interdimensional-travel: false
-# If you want to disable the invincibility after teleporting, then set this to true
-disable-invincibility: false
-# If you want to disable logging /back locations from quitting the server, then set this to true
-disable-back-on-quit: false
-
-# Everything works with SECONDS
-#Integers
-invincibility-seconds: 5
-#This will keep the teleport request alive for X seconds
-keep-alive: 60
-#This will delay the teleportation for X seconds
-delay-back-command: 5
-delay-teleportation: 5
-#Cooldowns
-back-cooldown: 10
-tpa-cooldown: 10
-tpahere-cooldown: 10
-tpahereall-cooldown: 10
-#To set a custom cooldown, you need to add a permission : simpletpa.cooldown.Y.X where Y is the command and  X are the seconds.
-#The options for commands are: tpa | tpahere | back | tpahereall
-#Example: simpletpa.cooldown.tpa.300 | simpletpa.cooldown.tpahere.300 | simpletpa.cooldown.tpahereall.300 | simpletpa.cooldown.back.300
-#This will set the cooldown for tpa/ tpahere/ tpahereall / back to 300 seconds
+# QUYỀN
+# Đối với tất cả quyền, vui lòng ghé thăm trang https://www.spigotmc.org/resources/simpletpa.64245/
+# Để biết thêm các tính năng và plugin tốt hơn nữa, vui lòng xem các tài nguyên khác của tôi!

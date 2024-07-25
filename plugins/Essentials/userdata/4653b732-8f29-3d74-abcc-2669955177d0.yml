@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.31.49.210
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1721797740174
+  login: 1721797459792
+money: '0'
+last-account-name: TiackMCYTB
+lastlocation:
+  world: 25c6a73e-6792-4f4e-8534-991924f06ad0
+  world-name: world
+  x: 96.0
+  y: 67.0
+  z: -464.0
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 25c6a73e-6792-4f4e-8534-991924f06ad0
+  world-name: world
+  x: 10.691271215852732
+  y: 29.0
+  z: -364.83028322887
+  yaw: 45.932769775390625
+  pitch: 78.94759368896484
